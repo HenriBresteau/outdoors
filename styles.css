@@ -277,3 +277,22 @@ nav {
   border-radius: 50%;
   border: 3px solid #eb648c;
 }
+
+/* Adventure */
+
+.adventure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+.adventure-grid-item p {
+  color: rgba(0, 0, 0, 0.767);
+}
+
+footer {
+  padding: 2.5rem 0;
+  background-color: #d7d4ed;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.767);
+}
